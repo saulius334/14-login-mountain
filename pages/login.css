@@ -1,12 +1,12 @@
 @import '../css/body.css';
+@import '../css/media.css';
 
 .container {
     display: flex;
     width: 60%;
-    margin: auto;
+    margin: 100px auto;
     justify-content: space-between;
     align-items: center;
-    padding-top: 200px;
 }
 section .formbox {
     width: 60%;
