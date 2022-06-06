@@ -1,0 +1,10 @@
+@media (max-width:460px) {
+    .container {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .side {
+     
+    }
+}

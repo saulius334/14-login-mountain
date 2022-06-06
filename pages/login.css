@@ -1,5 +1,4 @@
 @import '../css/body.css';
-@import '../css/media.css';
 
 .container {
     display: flex;
@@ -85,4 +84,19 @@ section .formbox {
     margin-right: 20px;
     background-image: linear-gradient(to right, #264BD2,#0661DD);
     
+}
+@media (max-width:460px) {
+    .container {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    section .formbox {
+        flex-wrap: wrap;
+        background-color: rgba(255, 255, 255, 0.9);
+        justify-content: center;
+    }
+    .side {
+        display: none;
+    }
 }
